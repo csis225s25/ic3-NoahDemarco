@@ -7,5 +7,8 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 **Changes to code**
 
+The changes I made included removing static context from our instance variables, Added an identifier creating JComboBox, and finally there was no constrcutor, so like lab I moved what was in main to a constructor and kept main for just running the program.
 
 **What caused it to stop working?**
+
+In older versions, one could not need a constructor when dealing with genric types but I think the reason for the code not working was because we were using a generic class with no constructor, as well as static context issuses and identifier.
